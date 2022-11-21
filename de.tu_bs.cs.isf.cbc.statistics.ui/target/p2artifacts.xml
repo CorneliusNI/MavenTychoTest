@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='1'>
+  <artifact classifier='osgi.bundle' id='de.tu_bs.cs.isf.cbc.statistics.ui' version='1.0.0.202211161411'>
+    <properties size='6'>
+      <property name='artifact.size' value='21435'/>
+      <property name='download.size' value='21435'/>
+      <property name='maven-groupId' value='de.tu-bs.cbc'/>
+      <property name='maven-artifactId' value='de.tu_bs.cs.isf.cbc.statistics.ui'/>
+      <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+      <property name='maven-type' value='eclipse-plugin'/>
+    </properties>
+  </artifact>
+</artifacts>

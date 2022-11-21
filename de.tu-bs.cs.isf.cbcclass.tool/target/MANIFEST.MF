@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ClassTool
+Bundle-SymbolicName: de.tu-bs.cs.isf.cbcclass.tool; singleton:=true
+Bundle-Version: 1.0.0.202211161411
+Automatic-Module-Name: de.tu.bs.cs.isf.cbcclass.tool
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: org.eclipse.graphiti,org.eclipse.graphiti.ui,de.tu-bs.cs
+ .isf.cbc.model,org.eclipse.emf.common,org.eclipse.graphiti.mm,org.eclip
+ se.swt,org.eclipse.emf.transaction,org.eclipse.ui.workbench,org.eclipse
+ .ui.views.properties.tabbed
+Import-Package: de.tu_bs.cs.isf.cbc.tool.diagram,de.tu_bs.cs.isf.cbc.too
+ l.features,de.tu_bs.cs.isf.cbc.tool.helper,de.tu_bs.cs.isf.cbc.tool.mod
+ el,de.tu_bs.cs.isf.cbc.tool.patterns,de.tu_bs.cs.isf.cbc.util,org.eclip
+ se.core.resources,org.eclipse.core.runtime,org.eclipse.emf.ecore.xmi.im
+ pl,org.eclipse.graphiti.pattern;version="0.13.2",org.eclipse.graphiti.p
+ attern.id,de.tu_bs.cs.isf.cbc.cbcclass
+Export-Package: de.tu_bs.cs.isf.cbcclass.tool.patterns
+

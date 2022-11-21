@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='de.tu_bs.cs.isf.commands.toolbar' version='1.0.0.202211141455' generation='2'>
+    <update id='de.tu_bs.cs.isf.commands.toolbar' range='[0.0.0,1.0.0.202211141455)' severity='0'/>
+    <properties size='5'>
+      <property name='org.eclipse.equinox.p2.name' value='Toolbar'/>
+      <property name='maven-groupId' value='de.tu-bs.cbc'/>
+      <property name='maven-artifactId' value='de.tu_bs.cs.isf.commands.toolbar'/>
+      <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+      <property name='maven-type' value='eclipse-plugin'/>
+    </properties>
+    <provides size='4'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='de.tu_bs.cs.isf.commands.toolbar' version='1.0.0.202211141455'/>
+      <provided namespace='osgi.bundle' name='de.tu_bs.cs.isf.commands.toolbar' version='1.0.0.202211141455'/>
+      <provided namespace='osgi.identity' name='de.tu_bs.cs.isf.commands.toolbar' version='1.0.0.202211141455'>
+        <properties size='1'>
+          <property name='type' value='osgi.bundle'/>
+        </properties>
+      </provided>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='14'>
+      <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.core.resources' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='de.tu-bs.cs.isf.cbc.util' range='1.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.emf.ecore' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='de.tu-bs.cs.isf.cbc.model' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.emf.ecore.xmi' range='0.0.0'/>
+      <required namespace='java.package' name='de.tu_bs.cs.isf.cbc.tool.helper' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.jdt.core' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.jdt.internal.compiler.batch' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.jdt.internal.core' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.jface.text' range='0.0.0'/>
+      <required namespace='java.package' name='org.emftext.language.java.containers' range='0.0.0'/>
+      <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.8))'>
+        <description>
+          de.tu_bs.cs.isf.commands.toolbar
+        </description>
+      </requiredProperties>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='de.tu_bs.cs.isf.commands.toolbar' version='1.0.0.202211141455'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: de.tu_bs.cs.isf.commands.toolbar;singleton:=true&#xA;Bundle-Version: 1.0.0.202211141455&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>
