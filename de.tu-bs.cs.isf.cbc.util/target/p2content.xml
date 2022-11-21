@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='de.tu-bs.cs.isf.cbc.util' version='1.0.0.202211161411' singleton='false' generation='2'>
+    <update id='de.tu-bs.cs.isf.cbc.util' range='[0.0.0,1.0.0.202211161411)' severity='0'/>
+    <properties size='5'>
+      <property name='org.eclipse.equinox.p2.name' value='Parser'/>
+      <property name='maven-groupId' value='de.tu-bs.cbc'/>
+      <property name='maven-artifactId' value='de.tu-bs.cs.isf.cbc.util'/>
+      <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+      <property name='maven-type' value='eclipse-plugin'/>
+    </properties>
+    <provides size='5'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='de.tu-bs.cs.isf.cbc.util' version='1.0.0.202211161411'/>
+      <provided namespace='osgi.bundle' name='de.tu-bs.cs.isf.cbc.util' version='1.0.0.202211161411'/>
+      <provided namespace='java.package' name='de.tu_bs.cs.isf.cbc.util' version='0.0.0'/>
+      <provided namespace='osgi.identity' name='de.tu-bs.cs.isf.cbc.util' version='1.0.0.202211161411'>
+        <properties size='1'>
+          <property name='type' value='osgi.bundle'/>
+        </properties>
+      </provided>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='16'>
+      <required namespace='osgi.bundle' name='de.tu-bs.cs.isf.cbc.model' range='0.1.0'/>
+      <required namespace='osgi.bundle' name='org.key_project.core' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.key_project.util' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.core.resources' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.graphiti.mm' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.core.filesystem' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.ui.console' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.emftext.language.java' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.key_project.ui' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='de.tu_bs.cs.isf.cbc.statistics' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='com.google.guava' range='0.0.0'/>
+      <required namespace='java.package' name='com.google.common.collect' range='10.0.1'/>
+      <required namespace='java.package' name='org.emftext.language.java.resource.java.util' range='0.0.0'/>
+      <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=17))'>
+        <description>
+          de.tu-bs.cs.isf.cbc.util
+        </description>
+      </requiredProperties>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='de.tu-bs.cs.isf.cbc.util' version='1.0.0.202211161411'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: de.tu-bs.cs.isf.cbc.util&#xA;Bundle-Version: 1.0.0.202211161411&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>
