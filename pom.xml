@@ -137,7 +137,7 @@
     <module>de.tu-bs.cs.isf.cbc.tool</module>
     <module>de.tu-bs.cs.isf.cbc.util</module>
     <module>de.tu-bs.cs.isf.cbcclass.tool</module>
-    <!--<module>de.tu-bs.cs.isf.wizards</module>-->
+    <module>de.tu-bs.cs.isf.wizards</module>
     <module>de.tu_bs.cs.isf.cbc.statistics</module>
     <module>de.tu_bs.cs.isf.cbc.statistics.ui</module>
     <module>de.tu_bs.cs.isf.commands.toolbar</module>
